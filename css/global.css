@@ -6,11 +6,33 @@
   box-sizing: border-box;
 }
 
+:root { 
+/* primary */
+--red: hsl(0, 100%, 67%);
+--red-bg: hsl(0, 100%, 96%);
+
+--yellow: hsl(39, 100%, 56%);
+--yellow-bg: hsl(39, 100%, 96%);
+
+--green: hsl(166, 100%, 37%);
+--green-bg: hsl(166, 100%, 96%);
+
+--blue: hsl(234, 85%, 45%);
+--blue-bg: hsl(234, 85%, 96%);;
+
+/* neutral */
+--white: hsl(0, 0%, 100%);
+--blue100: hsl(221, 100%, 96%);
+--blue200: hsl(241, 100%, 89%);
+--blue300: hsl(224, 30%, 27%);
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   height: 100vh;
+  font-size: 1.8rem;
   font-family: 'Hanken Grotesk', sans-serif;
 }
